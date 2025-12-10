@@ -6,7 +6,7 @@ from sqlalchemy import (
     Boolean,
 )
 
-from .database import Base
+from app.database import Base
 
 
 class Product(Base):
